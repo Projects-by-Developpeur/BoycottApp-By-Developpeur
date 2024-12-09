@@ -1,0 +1,35 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:textDirection="rtl"
+        android:id="@+id/nav_about_us"
+        android:title="اقرأ عنا"
+
+        />
+
+    <item
+        android:textDirection="rtl"
+        android:id="@+id/nav_contact_us"
+        android:title="اتصل بنا"
+
+        />
+
+    <item
+        android:textDirection="rtl"
+        android:id="@+id/nav_share"
+        android:title="شارك التطبيق"
+
+        />
+
+    <item
+        android:textDirection="rtl"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#59923F"
+        android:id="@+id/nav_exit"
+        android:title="الخروج من التطبيق"
+
+        />
+</menu>
