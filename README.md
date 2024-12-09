@@ -1,5 +1,5 @@
-![Uploading stophandblood.jpg…]()
-Boycott App for Android
+![stophandblood](https://github.com/user-attachments/assets/3ddefde1-61ea-4bd5-990b-8610a8c8ab76)
+BoycottApp By Developpeur
 A purpose-driven Android app designed to raise awareness and encourage collective action against specific products. 
 The app provides users with a categorized list of boycotted products and enables them to contribute by suggesting additional products via email.
 🌟 Features
