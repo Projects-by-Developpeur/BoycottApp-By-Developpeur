@@ -64,7 +64,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:columnCount="3"
-            android:rowCount="14">
+                 android:rowCount="13">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
@@ -907,60 +907,15 @@
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
+
+
+                <!-- Row 7 -->
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_row="5"
                     android:layout_rowWeight="0"
                     android:layout_column="2"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="8dp"
-                    android:layout_marginTop="20dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <RelativeLayout
-                        android:id="@+id/lindt"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical|center_horizontal"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:id="@+id/lt"
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginStart="8dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="8dp"
-                            android:layout_marginBottom="8dp"
-                            android:src="@drawable/labelo" />
-
-                        <TextView
-
-                            android:layout_below="@+id/lt"
-                            android:text="لابيلو"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="11dp"
-                            android:layout_marginRight="5dp"
-                            android:textColor="#000"
-                            android:textSize="16dp" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
-
-                <!-- Row 7 -->
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="6"
-                    android:layout_rowWeight="0"
-                    android:layout_column="0"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1012,7 +967,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="6"
                     android:layout_rowWeight="0"
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1063,7 +1018,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="6"
                     android:layout_rowWeight="0"
-                    android:layout_column="2"
+                    android:layout_column="1"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1114,9 +1069,9 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="7"
+                    android:layout_row="6"
                     android:layout_rowWeight="0"
-                    android:layout_column="0"
+                    android:layout_column="2"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1163,7 +1118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="7"
                     android:layout_rowWeight="0"
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1214,7 +1169,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="7"
                     android:layout_rowWeight="0"
-                    android:layout_column="2"
+                    android:layout_column="1"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1264,9 +1219,9 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="8"
+                    android:layout_row="7"
                     android:layout_rowWeight="0"
-                    android:layout_column="0"
+                    android:layout_column="2"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1317,7 +1272,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="8"
                     android:layout_rowWeight="0"
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1368,7 +1323,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="8"
                     android:layout_rowWeight="0"
-                    android:layout_column="2"
+                    android:layout_column="1"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1418,9 +1373,9 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="9"
-                    android:layout_rowWeight="0"
-                    android:layout_column="0"
+                    android:layout_row="8"
+                    android:layout_rowWeight="2"
+                    android:layout_column="2"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1471,7 +1426,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="9"
                     android:layout_rowWeight="0"
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1522,7 +1477,7 @@
                     android:layout_height="wrap_content"
                     android:layout_row="9"
                     android:layout_rowWeight="0"
-                    android:layout_column="2"
+                    android:layout_column="1"
                     android:layout_columnWeight="1"
                     android:layout_gravity="fill"
                     android:layout_margin="8dp"
@@ -1570,112 +1525,11 @@
 
 
                 <!-- Row 11 -->
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="10"
-                    android:layout_rowWeight="0"
-                    android:layout_column="0"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="8dp"
-                    android:layout_marginTop="20dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <RelativeLayout
-                        android:id="@+id/nestle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical|center_horizontal"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:id="@+id/nl"
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginStart="8dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="8dp"
-                            android:layout_marginBottom="8dp"
-                            android:src="@drawable/panten" />
-
-                        <TextView
-                            android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/nl"
-                            android:layout_marginStart="5dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginEnd="5dp"
-                            android:layout_marginBottom="5dp"
-                            android:gravity="center_horizontal"
-                            android:text="بانتين"
-                            android:textAlignment="center"
-                            android:textColor="#000"
-                            android:textSize="16dp" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="10"
-                    android:layout_rowWeight="0"
-                    android:layout_column="1"
-                    android:layout_columnWeight="1"
-                    android:layout_gravity="fill"
-                    android:layout_margin="8dp"
-                    android:layout_marginTop="20dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <RelativeLayout
-                        android:id="@+id/nutella"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical|center_horizontal"
-                        android:gravity="center">
-
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/nt"
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginStart="8dp"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginEnd="8dp"
-                            android:layout_marginBottom="8dp"
-                            android:src="@drawable/rexonaa" />
-
-                        <TextView
-                            android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@+id/nt"
-                            android:layout_marginStart="5dp"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginEnd="5dp"
-                            android:layout_marginBottom="5dp"
-                            android:gravity="center_horizontal"
-                            android:text="ريكسونا"
-                            android:textAlignment="center"
-                            android:textColor="#000"
-                            android:textSize="16dp" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="10"
+                    android:layout_row="9"
                     android:layout_rowWeight="0"
                     android:layout_column="2"
                     android:layout_columnWeight="1"
@@ -1728,7 +1582,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="11"
+                    android:layout_row="10"
                     android:layout_rowWeight="0"
                     android:layout_column="0"
                     android:layout_columnWeight="1"
@@ -1779,7 +1633,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="11"
+                    android:layout_row="10"
                     android:layout_rowWeight="0"
                     android:layout_column="1"
                     android:layout_columnWeight="1"
@@ -1830,7 +1684,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="11"
+                    android:layout_row="10"
                     android:layout_rowWeight="0"
                     android:layout_column="2"
                     android:layout_columnWeight="1"
@@ -1883,7 +1737,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="12"
+                    android:layout_row="11"
                     android:layout_rowWeight="0"
                     android:layout_column="0"
                     android:layout_columnWeight="1"
@@ -1934,7 +1788,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="12"
+                    android:layout_row="11"
                     android:layout_rowWeight="0"
                     android:layout_column="1"
                     android:layout_columnWeight="1"
@@ -1985,7 +1839,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="12"
+                    android:layout_row="11"
                     android:layout_rowWeight="0"
                     android:layout_column="2"
                     android:layout_columnWeight="1"
@@ -2037,7 +1891,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="13"
+                    android:layout_row="12"
                     android:layout_rowWeight="0"
                     android:layout_column="0"
                     android:layout_columnWeight="1"
@@ -2088,7 +1942,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="13"
+                    android:layout_row="12"
                     android:layout_rowWeight="0"
                     android:layout_column="1"
                     android:layout_columnWeight="1"
@@ -2139,7 +1993,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_row="13"
+                    android:layout_row="12"
                     android:layout_rowWeight="0"
                     android:layout_column="2"
                     android:layout_columnWeight="1"
