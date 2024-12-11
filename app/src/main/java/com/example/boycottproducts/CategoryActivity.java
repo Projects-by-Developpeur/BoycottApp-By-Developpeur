@@ -63,37 +63,34 @@ public class CategoryActivity extends AppCompatActivity {
         popupMenu.getMenuInflater().inflate(R.menu.note_menu, popupMenu.getMenu());
 
         // Set RTL layout direction if required
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            popupMenu.setOnMenuItemClickListener(item -> {
-                if (item.getItemId() == R.id.nav_about_us) {
-                    startActivity(new Intent(CategoryActivity.this, AboutUsActivity.class));
-                    finish();
-                    return true;
-                } else if (item.getItemId() == R.id.nav_contact_us) {
-                    startActivity(new Intent(CategoryActivity.this, ContactUsActivity.class));
-                    finish();
-                    return true;
-                } else if (item.getItemId() == R.id.nav_share) {
-                    Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                    shareIntent.setType("text/plain");
-                    String shareBody = "Check out this app!";
-                    shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Boycott Products");
-                    shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-                    startActivity(Intent.createChooser(shareIntent, "Share via"));
-                    return true;
-                } else if (item.getItemId() == R.id.nav_exit) {
-                    AlertDialog.Builder mBuilder = new AlertDialog.Builder(CategoryActivity.this);
-                    mBuilder.setTitle("هل تود الخروج من التطبيق؟")
-                            .setIcon(R.drawable.logout)
-                            .setPositiveButton("لا", (dialog, which) -> dialog.dismiss())
-                            .setNegativeButton("نعم", (dialog, which) -> finishAffinity())
-                            .show();
-                    return true;
-                }
-                return false;
-            });
-
-        }
+        popupMenu.setOnMenuItemClickListener(item -> {
+            if (item.getItemId() == R.id.nav_about_us) {
+                startActivity(new Intent(CategoryActivity.this, AboutUsActivity.class));
+                finish();
+                return true;
+            } else if (item.getItemId() == R.id.nav_contact_us) {
+                startActivity(new Intent(CategoryActivity.this, ContactUsActivity.class));
+                finish();
+                return true;
+            } else if (item.getItemId() == R.id.nav_share) {
+                Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("text/plain");
+                String shareBody = "Check out this app!";
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Boycott Products");
+                shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(shareIntent, "Share via"));
+                return true;
+            } else if (item.getItemId() == R.id.nav_exit) {
+                AlertDialog.Builder mBuilder = new AlertDialog.Builder(CategoryActivity.this);
+                mBuilder.setTitle("هل تود الخروج من التطبيق؟")
+                        .setIcon(R.drawable.logout)
+                        .setPositiveButton("لا", (dialog, which) -> dialog.dismiss())
+                        .setNegativeButton("نعم", (dialog, which) -> finishAffinity())
+                        .show();
+                return true;
+            }
+            return false;
+        });
 
         popupMenu.show();
     }

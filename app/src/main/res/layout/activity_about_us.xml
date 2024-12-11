@@ -107,7 +107,7 @@
             android:textSize="16sp"
             android:textStyle="bold"
             android:text="هل تريد المزيد؟ تواصل معنا الآن"
-            android:textColor="#59923F" />
+            android:textColor="#FB0034" />
 
     </RelativeLayout>
 
