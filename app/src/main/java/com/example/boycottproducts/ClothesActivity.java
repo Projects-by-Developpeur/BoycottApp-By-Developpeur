@@ -23,7 +23,7 @@ public class ClothesActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
-                intent.setData(Uri.parse("mailto:" + Uri.encode("xyz22@gmail.com")));
+                intent.setData(Uri.parse("mailto:" + Uri.encode("contact.developpeur27@gmail.com")));
                 intent.setPackage("com.google.android.gm"); // Specify Gmail package
                 startActivity(intent);
    }
